@@ -1,26 +1,7 @@
 # Chord Detector
 
-Detect what chords are being played in an [AudioBuffer] in the browser's [AudioContext].  Also exposes a [Chromagram] that will show you what notes are being played.
+This is a fork of the original Chord Detector project: https://github.com/myers/chord_detector
 
-This is a javascript wrapper that uses [Emscripten] to wrap [Adam Stark]'s [Chord-Detector-and-Chromagram]
+The purpose of this fork is just to expose the chord recognition tool to the public through GitHub Pages, letting users drag in a local audio file for analysis.
 
- [AudioBuffer]: https://developer.mozilla.org/en-US/docs/Web/API/AudioBuffer
- [AudioContext]: https://developer.mozilla.org/en-US/docs/Web/API/AudioContext
- [Chromagram]: https://en.wikipedia.org/wiki/Chroma_feature
- [Adam Stark]: https://github.com/adamstark
- [Chord-Detector-and-Chromagram]: https://github.com/adamstark/Chord-Detector-and-Chromagram
- [Emscripten]: http://kripken.github.io/emscripten-site/
-
-# Building
-
-```bash
-git submodule update --init # pull in Chord-Detector-and-Chromagram
-npm run build # requires emscripten's emcc to be on your path
-```
-# Demo
-
-[Demo](https://myers.github.com/chord_detector/) where you can play different sound clips of a chord and see what is detected.
-
-# Projects Built On This
-
-Let me know if you build something on this, and I will list it here.
+Check it here: https://ugotsta.github.io/chord_detector/
